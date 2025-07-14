@@ -81,6 +81,14 @@ background-color: rgb(30,30,30);
   width: 400px;
   height: 400px;
 }
+            @keyframes blink {
+       0% { opacity: 1; }
+       50% { opacity: .5; }
+       100% { opacity: 1; }
+     }
+            .flickering-image {
+       animation: blink 1s infinite; /* Adjust duration as needed */
+     }
 </style>
 </head>
 <body>
@@ -94,7 +102,7 @@ the cake is a lie.
 the cake is a lie.
 the cake is a lie.</pre>
 
- <img src="portal_blue.png" style="float:left"> <img src="portal_orange.png" style="float:right"> <pre style= "font-size: 9px;" class="animated-gradient-text">
+ <img src="portal_blue.png" style="float:left" class="flickering-image"> <img src="portal_orange.png" style="float:right" class="flickering-image"> <pre style= "font-size: 9px;" class="animated-gradient-text">
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⢀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣿⣧⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⡿⢻⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣾⡿⠟⠙⣿⣧⠀⠀⠀⠀⠀
